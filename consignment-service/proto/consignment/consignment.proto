@@ -12,11 +12,11 @@ message Consignment {
     string id = 1;
     string description = 2;
     int32 weight = 3;
-    repeated Container container  = 4;
+    repeated Containers containers  = 4;
     string vessel_id = 5;
 }
 
-message Container {
+message Containers {
     string id = 1;
     string customer_id = 2;
     string origin = 3;

@@ -10,3 +10,5 @@ require (
 )
 
 replace github.com/microke/consignment-service => ../consignment-service
+
+replace github.com/microke/vessel-service => ../vessel-service
